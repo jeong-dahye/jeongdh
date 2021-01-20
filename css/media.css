@@ -78,10 +78,12 @@
     .conTit h4{
         font-size:16px;
         margin:20px 0;
+        text-align:right;
     }
     .conTit p{
         font-size:12px;
         line-height:20px;
+        text-align:right;
     }
     .conTit h2 span::before{
         width:130px;
@@ -117,7 +119,7 @@
         padding-left:30px;
     }
     .con02Tit h2{
-        font-size:18px;
+        font-size:20px;
         line-height:30px;
         margin-bottom:20px;
     }
