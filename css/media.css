@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*웹 X*/
-.panel,.con03List li:last-child{display:none;}
+.panel,.con03List li:last-child,.mainSliderM{display:none;}
 
 @media screen and (max-width:768px){
     /*웹공통*/
@@ -9,10 +9,10 @@
     .inner{width:auto;}
     
     /*모바일 X*/
-    .mainCon01::before,.con02Img::before,.con02Img::after,.mainCon05 p,.con06Txt h5 span,.mainCon07 .conTit p,.mainCon07 .conTit h4{display:none;}
+    .mainCon01::before,.con02Img::before,.con02Img::after,.mainCon05 p,.con06Txt h5 span,.mainCon07 .conTit p,.mainCon07 .conTit h4,.mainSlider{display:none;}
     
     /*모바일 O*/
-    .panel,.con03List li:last-child{display:block;}
+    .panel,.con03List li:last-child,.mainSliderM{display:block;}
     
     /*header*/
     #header{
@@ -56,7 +56,20 @@
     }
     
     /*mainSlider*/
-    .mainSlider{}
+    .mainSliderM{
+        width:100%;
+        height:100%;
+        overflow:hidden;
+        position:relative;
+        z-index:1;
+    }    
+    .mainSliderM video{
+        position:absolute;
+        left:50%;
+        margin-left:-960px;
+        top:50%;
+        margin-top:-540px;
+    }
     
     /*mainCon01*/
     .mainCon01{
@@ -195,10 +208,15 @@
         line-height:30px;
         margin-bottom:20px;
     }
+    .mainCon05 .conTit h2 span{
+        display:inline-block;
+    }
     .mainCon05 .conTit h2 span::before{
         width:110px;
         height:16px;
+        margin-left:150px;
     }
+    .mainCon05 .conTit h4{text-align:left;}
     
     /*mainCon06*/
     .mainCon06{
@@ -240,13 +258,16 @@
         line-height:30px;
         margin:30px 0;
     }
+    .mainCon07 .conTit span{
+        display:inline-block;
+    }
     .mainCon07 .conTit h4{}
     .mainCon07 .conTit p{}
     .mainCon07 .conTit span::before{
         width:124px;
         height:20px;
         margin-bottom:-2px;
-        
+        margin-left:106px
     }
     .con07List{
         margin:0;
