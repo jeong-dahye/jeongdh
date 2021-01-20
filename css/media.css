@@ -1,0 +1,287 @@
+@charset "utf-8";
+
+/*웹 X*/
+.panel,.con03List li:last-child{display:none;}
+
+@media screen and (max-width:768px){
+    /*웹공통*/
+    body{min-width:auto;}
+    .inner{width:auto;}
+    
+    /*모바일 X*/
+    .mainCon01::before,.con02Img::before,.con02Img::after,.mainCon05 p,.con06Txt h5 span,.mainCon07 .conTit p,.mainCon07 .conTit h4{display:none;}
+    
+    /*모바일 O*/
+    .panel,.con03List li:last-child{display:block;}
+    
+    /*header*/
+    #header{
+        position:relative;
+        width:100%;
+        padding:0;
+    }
+    #header h1{
+        position:absolute;
+        margin:0;
+        left:50%;
+        margin-left:-40px;
+        margin-top:10px;
+        width:80px;
+    }
+    
+    .gnb{
+        display:none;
+    }
+    .panel{
+        position:absolute;
+        right:20px;
+        top:6px;
+        text-indent:-9999px;
+        }
+    .panel a{
+        display:block;
+        padding-top:12px;
+    }
+
+    .panel a::before,.panel span,.panel a::after{
+        content:"";
+        display:block;
+        width:20px;
+        height:2px;
+        background-color:#05A661;  
+        margin:0 auto;
+    }
+    .panel span{
+        margin:5px auto;
+    }
+    
+    /*mainSlider*/
+    .mainSlider{}
+    
+    /*mainCon01*/
+    .mainCon01{
+        background-size:contain;
+        height:auto;
+    }
+    .conTit{
+        padding:0;
+    }
+    .mainCon01 .conTit{
+        margin-left:10px;
+        padding-top:60%;
+    }
+    .conTit h2{
+        font-size:44px;
+        line-height:40px;
+    }
+    .conTit h2 span{}
+    .conTit h4{
+        font-size:16px;
+        margin:20px 0;
+    }
+    .conTit p{
+        font-size:12px;
+        line-height:20px;
+    }
+    .conTit h2 span::before{
+        width:130px;
+        height:22px;
+        bottom:2px;
+    }
+    
+    /*mainCon02*/
+    .mainCon02{
+        width:100%;
+        margin:30px 0;
+    }
+    .con02Img{
+        position:static;
+        padding:0;
+        padding-bottom:66px;
+        margin:0 10px;
+    }
+    .con02Img img{width:70%;}
+    .con02Img img:first-child{
+    }
+    .con02Img img:last-child{
+        float:right;
+        margin:0;
+        margin-top:-30%;
+        position:relative;
+    }
+    .con02Tit{
+        float:none;
+        padding:30px 0;
+        background-position:10px 10px; 
+        background-size:20%;
+        padding-left:30px;
+    }
+    .con02Tit h2{
+        font-size:18px;
+        line-height:30px;
+        margin-bottom:20px;
+    }
+    .con02Tit p{
+        font-size:12px;
+        line-height:18px;
+    }
+    
+    /*mainCon03*/
+    .mainCon03{
+        padding:0;
+        margin:30px 10px;
+        margin-bottom:50px;
+    }   
+    .con03List{float:none;}
+    .con03List li{
+        width:calc(32.8% - 5px);
+        margin:0;
+        margin-right:10px;
+    }
+    .con03List li:last-child{
+        margin-right:0;
+    }
+    .con03List li a{}
+    .con03List li img{
+        width:100%;
+        display:block;
+    }
+    
+    .mainCon03 .conTit{
+        position:static;
+        margin:0;    
+    }
+    .mainCon03 .conTit h2{
+        font-size:30px;
+        line-height:30px;
+        margin-bottom:20px;
+    }
+    .mainCon03 .conTit h2 span::before{
+        width:110px;
+        height:16px;
+    }
+    /*mainCon04*/
+    .mainCon04{
+        height:30%;
+        width:100%;
+    }
+    
+    /*mainCon05*/
+    .mainCon05{
+        padding:0;
+        margin:50px 0;
+        margin-left:10px;
+    }
+    .con05List li{
+        margin:0;
+        width:calc(32% - 5px);
+        margin-left:10px;
+    }
+    .con05List li:first-child img{
+    border-radius:0px 0px 0px 50%;
+    }
+    .con05List li:last-child img{
+    border-radius:0px 50% 0px 0px;
+    }
+    
+    .mainCon05 .conTit{
+    position:static;
+    margin:0;    
+    }
+    .mainCon05 .conTit h2{
+        font-size:30px;
+        line-height:30px;
+        margin-bottom:20px;
+    }
+    .mainCon05 .conTit h2 span::before{
+        width:110px;
+        height:16px;
+    }
+    
+    /*mainCon06*/
+    .mainCon06{
+        padding:20px 10px;
+    }
+    .mainCon06 li{
+        width:calc(25% - 5px);
+        margin:0    
+    }
+    .mainCon06 li img{
+        width:40%;
+    }
+    .con06Txt{
+        font-size:10px;
+    }
+    .con06Txt h5{
+        font-size:10px;
+    }
+    .txtLine::after{
+        width:40%;
+    }
+    /*mainCon07*/
+    .mainCon07{
+        padding:0;
+        margin:0 10px;
+    }
+    .mainCon07 .conTit{
+        position:static;
+    }
+    .mainCon07 .conTit h2{
+        font-size:30px;
+        line-height:30px;
+        margin:30px 0;
+    }
+    .mainCon07 .conTit h4{}
+    .mainCon07 .conTit p{}
+    .mainCon07 .conTit span::before{
+        width:124px;
+        height:20px;
+        margin-bottom:-2px;
+        
+    }
+    .con07List{
+        margin:0;
+    }
+    .con07List li{
+        width:calc(33% - 5px);
+        padding:0;
+        margin:0;
+        margin-right:10px;
+        padding:20px 40px;
+        text-align:center;
+        box-sizing:border-box;
+    }
+    .con07List li img{
+        width:70%;
+    }
+    .con07List li span{
+        display:block;
+        font-size:16px;
+        text-align:center;
+        margin:0;
+        margin-left:-5px;
+    }
+    
+    /*footer*/
+    #footer{
+        margin-top:50px;
+        font-size:12px;
+        padding:30px 10px;
+    }
+    #footer .fInfo{
+        display:block;
+        margin:0 auto;
+        margin-bottom:10px;
+    }
+    .fInfo li{
+        margin-right:10px;
+    }
+    #footer span{
+        display:block;
+        margin-top:10px;
+    }
+    #footer .inner{
+        background-size:25%;
+        background-position:right bottom;
+    }
+}
