@@ -6,6 +6,8 @@ $(document).ready(function(){
         infinite:true, //반복재생
         arrows:false, //화살표
         variableWidth:true,
+        autoplay:true,
+        autoplaySpeed:2000,
         responsive: [
         {
           breakpoint:1200, // 화면 비율 1200
@@ -49,6 +51,8 @@ $(document).ready(function(){
         infinite:true, //반복재생
         arrows:false, //화살표
         variableWidth:true,
+        autoplay:true,
+        autoplaySpeed:2000,
         responsive: [
         {
           breakpoint:1200, // 화면 비율 1200

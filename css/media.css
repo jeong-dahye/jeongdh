@@ -80,7 +80,7 @@
         padding:0;
     }
     .mainCon01 .conTit{
-        margin-left:10px;
+        margin:0 10px;
         padding-top:60%;
     }
     .conTit h2{
@@ -193,10 +193,10 @@
         margin-left:10px;
     }
     .con05List li:first-child img{
-    border-radius:0px 0px 0px 50%;
+    border-radius:0px 0px 0px 35%;
     }
     .con05List li:last-child img{
-    border-radius:0px 50% 0px 0px;
+    border-radius:0px 35% 0px 0px;
     }
     
     .mainCon05 .conTit{
