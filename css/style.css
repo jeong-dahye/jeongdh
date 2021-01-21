@@ -3,4 +3,92 @@
 *{outline:none;}
 
 /*mainCon03*/ /*왼쪽 정렬 슬라이드*/
+.mainCon03 .conTit{
+    width:34%;
+}
+.con03List{
+    width:66%;
+    margin:0 auto;
+}
+.con03List .slick-track li{
+    width:520px;
+    height:auto;
+    margin-left:20px;
+    box-sizing:border-box;
+}
+.con03List .slick-track li:first-child{
+    margin-left:-50px;
+}
+.con03List .slick-slide img{
+    width:100%;
+    height:auto;
+}
 
+/*mainCon07*/ /*왼쪽 정렬 슬라이드*/
+.mainCon07 .conTit{
+}
+.con07List{
+    width:80%;
+    margin:0 auto;
+}
+.con07List .slick-track li{}
+.con07List .slick-track li:first-child{
+    margin-left:-50px;
+}
+.con07List .slick-slide img{
+    height:100%;
+    width:auto;
+}
+
+/*media*/
+@media screen and (max-width:768px){
+    /*mainCon03*/ /*왼쪽 정렬 슬라이드*/
+    .mainCon03 .conTit{
+    }
+    .con03List{
+        width:100%;
+        margin:0 auto;
+    }
+    .con03List .slick-track li{
+        width:140px;
+        height:auto;
+        margin-left:10px;
+        margin-right:0;
+        box-sizing:border-box;
+    }
+    .con03List .slick-track li:first-child{
+        margin-left:-40px;
+    }
+    .con03List .slick-slide img{
+        width:100%;
+        height:auto;
+    }
+
+    /*mainCon07*/ /*왼쪽 정렬 슬라이드*/
+    .mainCon07 .conTit{
+        margin:0;
+        z-index:1;
+    }
+    .con07List{
+        width:100%;
+        margin:0 auto;
+    }
+    .con07List li{
+        position:relative;
+    }
+    .con07List li span{
+        padding:0;
+        position:absolute;
+        right:15px;
+        top:50%;
+        margin-top:-12px;
+    }
+    .con07List .slick-track li{}
+    .con07List .slick-track li:first-child{
+        margin-left:-50px;
+    }
+    .con07List .slick-slide img{
+        height:100%;
+        width:auto;
+    }
+}

@@ -140,7 +140,9 @@
     width:210px;
 }
 
-.con03List{float:right;}
+.con03List{
+    float:right;
+}
 .con03List li{
     float:left;
     margin-right:30px;
@@ -149,9 +151,7 @@
     display:block;
     width:100%;
 }
-.con03List li img{
-    display:block;
-}
+.con03List li img{}
 
 /*mainCon04*/
 .mainCon04{
@@ -245,6 +245,8 @@
 .mainCon07 .conTit{
     position:absolute;
     top:200px;
+    left:50%;
+    margin-left:-700px;
     padding:0;
     z-index:1;
 }
@@ -252,24 +254,31 @@
     width:260px;
 }
 .con07List{
-    display:inline-block;
-    margin-left:150px;
+    float:right;
 }
 .con07List li{
+    width:600px;
+    height:540px;
+    padding:90px 0;
+    padding-left:212px;
+    border-radius:40px;
+    margin-left:20px;
+    box-sizing:border-box;
     float:left;
     background:#f8f8f8;
-    border-radius:40px;
-    padding:60px 0;
-    padding-left:182px;
-    margin-right:20px;
 }
 .con07List li img{
+    height:100%;
+    float:left;
+    display:inline-block;
     vertical-align:middle;
+    padding-left:40px;
 }
 .con07List li span{
+    float:right;
+    padding-top:135px;
+    padding-right:40px;
     display:inline-block;
-    margin-left:20px;
-    margin-right:20px;
     vertical-align:middle;
     font-family:'NotoSans',sans-serif;
     font-size:60px;

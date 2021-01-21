@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*웹 X*/
-.panel,.con03List li:last-child,.mainSliderM{display:none;}
+.panel,.mainSliderM{display:none;}
 
 @media screen and (max-width:768px){
     /*웹공통*/
@@ -12,7 +12,7 @@
     .mainCon01::before,.con02Img::before,.con02Img::after,.mainCon05 p,.con06Txt h5 span,.mainCon07 .conTit p,.mainCon07 .conTit h4,.mainSlider{display:none;}
     
     /*모바일 O*/
-    .panel,.con03List li:last-child,.mainSliderM{display:block;}
+    .panel,.mainSliderM{display:block;}
     
     /*header*/
     #header{
@@ -63,11 +63,12 @@
         position:relative;
     }    
     .mainSliderM video{
+        width:105%;
         position:absolute;
-        left:50%;
-        margin-left:-540px;
-        top:50%;
-        margin-top:-960px;
+        left:0;
+        right:0;
+        top:-5px;
+        bottom:0;
     }
     
     /*mainCon01*/
@@ -272,16 +273,16 @@
         margin:0;
     }
     .con07List li{
-        width:calc(33% - 5px);
-        padding:0;
+        width:200px;
+        height:180px;
         margin:0;
-        margin-right:10px;
+        margin-left:10px;
         padding:20px 40px;
         text-align:center;
         box-sizing:border-box;
     }
     .con07List li img{
-        width:70%;
+        width:100%;
     }
     .con07List li span{
         display:block;
