@@ -1,327 +1,554 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="ko">
     <head>
         <meta charset="utf-8">
+        <!--모바일과 반응형 모두 작업시 필요한 메타태그-->
         <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" /> 
-
-        <title>롯데칠성음료</title>
+        <!--모바일과 반응형 모두 작업시 필요한 메타태그-->
         
+        <title>한솔</title>
+                
+        <!--favicon-->
+        <!-- Chrome, Safari, IE --> 
+        <link rel="shortcut icon" href="favicon.ico">
+        
+        <!-- Firefox, Opera (Chrome and Safari say thanks but no thanks) --> 
+        <link rel="icon" href="favicon.png">
+        <!--favicon-->
+        
+        <!--웹폰트방식-->
+        <!--
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        -->
+        <!--웹폰트방식-->
+        
+        <!--폰트로드방식-->
         <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+        <!--폰트로드방식-->
+        
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
         <link rel="stylesheet" type="text/css" href="css/default.css">
         <link rel="stylesheet" type="text/css" href="css/include.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/media.css">
         
-        <link rel="stylesheet" type="text/css" href="css/slick.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript">
+              new WOW().init();
+        </script>
         
-        <script type="text/jscript" src="js/jquery-3.5.1.min.js"></script>
-        <script type="text/jscript" src="js/slick.min.js"></script>
-        <script type="text/jscript" src="js/main.js"></script>
     </head>
     
     <body>
-       <!--전체-->
+        <!--전체시작-->
         <div id="wrap">
-            <header id="header" class="cf">
+           <!--헤더-->
+            <header id="header">
                <!--로고-->
-                <h1><a href="#"><img src="images/common/logo.png" alt="로고"></a></h1>
+                <h1><a href="#">로고</a></h1>
                <!--로고-->
                
                <!--gnb-->
-                   <ul class="gnb">
-                       <li>
-                           <a href="#">기업소개</a>
-                       </li>
-                       <li>
-                           <a href="#">제품소개</a>
-                       </li>
-                       <li>
-                           <a href="#">지속가능경영</a>
-                       </li>
-                       <li>
-                           <a href="#">인재채용</a>
-                       </li>
-                       <li>
-                           <a href="#">오픈이노베이션</a>
-                       </li>
-                   </ul>
+               <ul class="gnb">
+                   <li>
+                       <a href="#">제품정보</a>
+                       
+                       <!--lnb-->
+                       <ul class="lnb">
+                           <li><a href="#">바닥재</a></li>
+                           <li><a href="#">벽면재</a></li>
+                           <li><a href="#">도어재</a></li>
+                           <li><a href="#">몰딩재</a></li>
+                           <li><a href="#">시트재</a></li>
+                           <li><a href="#">가구재</a></li>
+                       </ul>
+                       <!--lnb-->
+                   </li>
+                   <li>
+                       <a href="#">시공사례</a>
+                       
+                       <!--lnb-->
+                       <ul class="lnb">
+                           <li><a href="#">테마 갤러리</a></li>
+                           <li><a href="#">시공 갤러리</a></li>
+                           <li><a href="#">전시장 갤러리</a></li>
+                       </ul>
+                       <!--lnb-->
+                   </li>
+                   <li>
+                       <a href="#">고객센터</a>
+                       
+                       <!--lnb-->
+                       <ul class="lnb">
+                           <li><a href="#">고객상담</a></li>
+                           <li><a href="#">대리점 찾기</a></li>
+                           <li><a href="#">FAQ</a></li>
+                           <li><a href="#">공지</a></li>
+                           <li><a href="#">뉴스</a></li>
+                           <li><a href="#">자료실</a></li>
+                       </ul>
+                       <!--lnb-->
+                   </li>
+                   <li>
+                       <a href="#">기업소개</a>
+                       
+                       <!--lnb-->
+                       <ul class="lnb">
+                           <li><a href="#">회사개요</a></li>
+                           <li><a href="#">투자정보</a></li>
+                           <li><a href="#">인사제도</a></li>
+                           <li><a href="#">채용공고</a></li>
+                           <li><a href="#">네트워크</a></li>
+                       </ul>
+                       <!--lnb-->
+                   </li>
+                   <li>
+                       <a href="#">사업분야</a>
+                       
+                       <!--lnb-->
+                       <ul class="lnb">
+                           <li><a href="#">가구 컴포넌트</a></li>
+                           <li><a href="#">인테리어자재</a></li>
+                           <li><a href="#">연관사업</a></li>
+                       </ul>
+                       <!--lnb-->
+                   </li>
+               </ul>
                <!--gnb-->
+               
+               <!--util-->
+               <ul class="util">
+                   <li><a href="#">제품찾기</a></li>
+                   <li><a href="#">SITEMAP</a></li>
+                   <li><a href="#">BLOG</a></li>
+               </ul>
+               <!--util-->
                
                <!--panel-->
                <div class="panel">
-                  <a href="#">
-                       <span>패널</span>
-                  </a>
+                   <a href="#">패널 아이콘</a>
                </div>
                <!--panel-->
             </header>
-            
-            <!--container-->
-            <div id="container">
-                <!--mainSlider-->
-                <div class="mainSlider">
-                    <video id="mainVideo" autoplay muted loop>
-                        <source src="images/main/mainSldierVideoBts.mp4">
-                    </video>
-                </div>
-                
-                <div class="mainSliderM">
-                    <video id="mainVideoM" autoplay muted loop>
-                        <source src="images/main/mainM.mp4">
-                    </video>
-                </div>
-                <!--mainSlider-->
-                
-                <!--mainCon01-->
-                <div class="mainCon01">
-                   <!--conTit-->
-                    <div class="conTit inner">
-                        <h2>
-                            CHILSUNG
-                            <span>CIDER</span>
-                        </h2>
-                        <h4>맑고 깨끗한 칠성사이다</h4>
-                        <p>
-                            칠성사이다는 반세기 이상의 역사를 지닌 대한민국 No.1<br>
-                            오리지널 탄산음료입니다.<br>
-                            청량감이 느껴지는 탄산과 상큼한 레몬라임향으로 일상 생활의<br>
-                            무료함을 톡하고 터지는 청량감으로 즐겁게 해줍니다.<br>
-                            맑고 깨끗한 칠성사이다의 명성을 유지하기 위해<br>
-                            Pure, Clear, Caffeine Free 3가지 원칙을 지키고 있습니다.
-                       </p>
-                    </div>
-                   <!--conTit-->
-                </div>
-                <!--mainCon01-->
-                
-                <!--mainCon02-->
-                <div class="mainCon02 inner cf">
-                   <!--con02Img-->
-                    <div class="con02Img">
-                        <img src="images/main/con02Img01.png" alt="디자이너이미지">
-                        <img src="images/main/con02Img02.png" alt="굿즈이미지">
-                    </div>
-                   <!--con02Img-->
+           <!--헤더-->
+           
+           <!--container-->
+           <div id="container">
+               <!--메인슬라이더-->
+               <div class="mainSlider">
+                   <!--메인텍스트-->
+                   <div class="mainTxt">
+                       <h2>가구 소재에서 <span>인테리어 자재까지</span></h2>
+                       <p>한솔홈데코가 편리하고 행복한 공간을 만들어 갑니다</p>
+                   </div>
+                   <!--메인텍스트-->
                    
-                   <!--con02Tit-->
-                    <div class="con02Tit">
-                        <h2>
-                            칠성사이다 70년의 디자인을 재해석한<br>
-                            칠성사이다 70주년 디자인<br>
-                            머천다이징 굿즈
-                        </h2>
-                        <p>
-                            각 시대의 디자인 스타일을 정리하고, 70년의
-                            디자인 역사를<br>
-                            재해석 &amp; 리디자인한 칠성사이다 굿즈를 선보입니 . 70주년을<br>
-                            기념하는 Special Limited Edition! 브랜드 정체성을 기반으로<br>
-                            기능, 소재, 마감까지 최상의 퀄리티를 추구하였습니다.
-                        </p>
-                    </div>
-                   <!--con02Tit-->
-                </div>
-                <!--mainCon02-->
-                
-                <!--mainCon03-->
-                <div class="mainCon03 cf">
-                   <!--conTit-->
-                        <div class="conTit">
-                            <h2>
-                                <span>GOODS</span>
-                            </h2>
-                        </div>
-                   <!--conTit-->
-                    
-                    <!--con03List-->
-                    <ul class="con03List">
-                        <li>
-                           <a href="#">
-
-                                <img src="images/main/con03Img01.png" alt="핸드폰케이스이미지">
-                           </a> 
-                        </li>
-                        <li>
-                            <a href="#">
-
-                                <img src="images/main/con03Img02.png" alt="향수케이스이미지">
-                           </a> 
-                        </li>
-                        <li>
-                            <a href="#">
-
-                                <img src="images/main/con03Img03.png" alt="달력이미지">
-                           </a> 
-                        </li>
-                    </ul>
-                    <!--con03List-->
-                </div>
-                <!--mainCon03-->
-                
-                <!--mainCon04-->
-                <div class="mainCon04">
-                </div>
-                <!--mainCon04-->
-                
-                <!--mainCon05-->
-                <div class="mainCon05 cf">
-                   <!--conTit-->
-                    <div class="conTit">
-                        <h2>
-                            CHILSUNG
-                            <span>NEWS</span>
-                        </h2>
-                        <h4>칠성사이다 뉴스</h4>
-                        <p>
-                            칠성사이다의 다양한 소식을 확인해보세요
-                       </p>
-                    </div>
-                   <!--conTit-->
-                   
-                   <!--con05List-->
-                   <ul class="con05List">
-                       <li>
-                           <a href="#">
-                               <img src="images/main/con04Img01.png" alt="과일맛칠성사이다이미지">
-                           </a>
-                       </li>
-                       <li>
-                           <a href="#">
-                               <img src="images/main/con04Img02.png" alt="사이다광고이미지">
-                           </a>
-                       </li>
-                       <li>
-                           <a href="#">
-                               <img src="images/main/con04Img03.png" alt="방탄소년단광고이미지">
-                           </a>
-                       </li>
-                   </ul>
-                   <!--con05List-->
-                </div>
-                <!--mainCon05-->
-                
-                <!--mainCon06-->
-                <ul class="mainCon06">
-                    <li>
-                        <img src="images/main/con05Ico01.png" alt="사이다이미지">
-                        
-                        <!--con06Txt-->
-                        <div class="con06Txt">
-                            <h5>국내 음료 업계</h5>
-                            <p class="txtLine">1위</p>
-                        </div>
-                        <!--con06Txt-->
-                    </li>
-                    <li>
-                        <img src="images/main/con05Ico02.png" alt="지구아이콘">
-                        
-                        <!--con06Txt-->
-                        <div class="con06Txt">
-                            <h5>해외수출</h5>
-                            <p>80여개 나라</p>
-                        </div>
-                        <!--con06Txt-->
-                    </li>
-                    <li>
-                        <img src="images/main/con05Ico03.png" alt="트로피아이콘">
-                        
-                        <!--con06Txt-->
-                        <div class="con06Txt">
-                            <h5><span>국가</span>고객 만족지수</h5>
-                            <p class="txtLine">1위</p>
-                        </div>
-                        <!--con06Txt-->
-                    </li>
-                    <li>
-                        <img src="images/main/con05Ico04.png" alt="매출액아이콘">
-                        
-                        <!--con06Txt-->
-                        <div class="con06Txt">
-                            <h5>매출액</h5>
-                            <p>2.4조</p>
-                        </div>
-                        <!--con06Txt-->
-                    </li>
-                </ul>
-                <!--mainCon06-->
-                
-                <!--mainCon07-->
-                <div class="mainCon07 cf">
-                    <!--conTit-->
-                    <div class="conTit">
-                        <h2>
-                            BRAND
-                            <span>HISTORY</span>
-                        </h2>
-                        <h4>브랜드 히스토리</h4>
-                        <p>
-                            칠성사이다는 반세기 이상의 역사를 지닌<br>
-                            대한민국 No.1 오리지널 탄산음료입니다.
-                       </p>
-                    </div>
-                   <!--conTit-->
-                   
-                   <!--con07List-->
-                   <ul class="con07List">
-                       <li>
-                            <img src="images/main/con06Img01.png" alt="1950년대 사이다 이미지">
-                            <span>1950</span>
-                       </li>
-                       <li>
-                            <img src="images/main/con06Img02.png" alt="1960년대 사이다 이미지">
-                            <span>1960</span>
-                       </li>
-                       <li>
-                            <img src="images/main/con06Img03.png" alt="1970년대 사이다 이미지">
-                            <span>1970</span>
-                       </li>
-                   </ul>
-                   <!--con07List-->
-                </div>
-                <!--mainCon07-->
-            </div>
-            <!--container-->
-            
-            <!--footer-->
-            <footer id="footer">
-               <div class="inner">
-                    <ul class="fInfo cf">
-                        <li>
-                            <a href="#">이용약관</a>
-                        </li>
-                        <li>
-                            <a href="#">개인정보처리방침</a>
-                        </li>
-                        <li>
-                            <a href="#">영상정보처리기기 운영방침</a>
-                        </li>
-                    </ul>
-                    <ul class="fInfo cf">
-                        <li>
-                            <a href="#">롯데칠성몰</a>
-                        </li>
-                        <li>
-                            <a href="#">신문고</a>
-                        </li>
-                        <li>
-                            <a href="#">공장견학</a>
-                        </li>
-                        <li>
-                            <a href="#">사이트맵</a>
-                        </li>
-                    </ul>
-
-                    <p>
-                        <span>서울특별시 송파구 올림픽로 269 롯데캐슬골드 3,4,5,9층</span>
-                        <span>TEL : 02-3479-9114</span>
-                        <span>FAX : 02-536-9767 </span>
-                        <span>대표이사 : 박윤기</span>
-                    </p>
-                   <p>Copyright 2021. jeong dahye. <span>All rights reserved.</span></p>
+                   <!--메인슬라이더버튼-->
+                   <div class="sliderBtn leftBtn">
+                       <a href="#">왼쪽버튼</a>
+                   </div>
+                   <div class="sliderBtn rightBtn">
+                       <a href="#">오른쪽버튼</a>
+                   </div>
+                   <!--메인슬라이더버튼-->
                </div>
-            </footer>
-            <!--footer-->
+               <!--메인슬라이더-->
+               
+               <!--메인컨텐츠01-->
+               <div class="mainCon01">
+                   <ul>
+                      <!--바닥재-->
+                       <li class="wow slideInDown">
+                           <a href="#">
+                               <span class="con01Icon01">바닥재아이콘</span>
+                               <p>바닥재</p>
+                           </a>
+                       </li>
+                      <!--바닥재-->
+
+                      <!--벽면재-->
+                       <li class="wow slideInDown" data-wow-delay="0.5s">
+                           <a href="#">
+                               <span class="con01Icon02">벽면재아이콘</span>
+                               <p>벽면재</p>
+                           </a>
+                       </li>
+                      <!--벽면재-->
+
+                      <!--도어재-->
+                       <li class="wow slideInDown" data-wow-delay="1s">
+                           <a href="#">
+                               <span class="con01Icon03">도어재아이콘</span>
+                               <p>도어재</p>
+                           </a>
+                       </li>
+                      <!--도어재-->
+
+                      <!--몰딩재-->
+                       <li class="wow slideInDown" data-wow-delay="1.5s">
+                           <a href="#">
+                               <span class="con01Icon04">몰딩재아이콘</span>
+                               <p>몰딩재</p>
+                           </a>
+                       </li>
+                      <!--몰딩재-->
+
+                      <!--시트재-->
+                       <li class="wow slideInDown" data-wow-delay="2s">
+                           <a href="#">
+                               <span class="con01Icon05">시트재아이콘</span>
+                               <p>시트재</p>
+                           </a>
+                       </li>
+                      <!--시트재-->
+
+                      <!--가구재-->
+                       <li class="wow slideInDown" data-wow-delay="2.5s">
+                           <a href="#">
+                               <span class="con01Icon06">가구재아이콘</span>
+                               <p>가구재</p>
+                           </a>
+                       </li>
+                      <!--가구재-->
+                   </ul>
+               </div>
+               <!--메인컨텐츠01-->
+               
+               <!--메인컨텐츠02-->
+               <div class="mainCon02">
+                  <div class="inner">
+                       <!--한솔매거진타이틀-->
+                       <div class="con02Tit">
+                           <h2>한솔매거진</h2>
+                           <p>한솔홈데코의 다양한 제품을 만나보세요.</p>
+                       </div>
+                       <!--한솔매거진타이틀-->
+                       
+                       <!--한솔매거진컨텐츠-->
+                       <div class="con02Con cf">
+                          
+                           <!--메인슬라이더버튼-->
+                           <div class="sliderBtn leftBtn">
+                               <a href="#">왼쪽버튼</a>
+                           </div>
+                           <div class="sliderBtn rightBtn">
+                               <a href="#">오른쪽버튼</a>
+                           </div>
+                           <!--메인슬라이더버튼-->
+                          
+                           <!--매거진왼쪽-->
+                           <div class="con02Left">
+                               <img src="images/mainrow2_img.jpg" alt="매거진이미지">
+                               <!--텍스트박스-->
+                               <div class="leftText">
+                                   <h4>테마 갤러리</h4>
+                                   <p>SBS 월화 드라마<br>키스먼저 할까요?<br><span>한솔홈데코 협찬</span></p>
+                                   <p class="lastText">드라마의 주요 세트장에서<br>한솔홈데코의 제품을<br>확인할 수 있습니다.</p>
+                                   
+                                   <!--자세히보기버튼-->
+                                   <div class="mallBtn">
+                                       <a href="#">자세히보기</a>
+                                   </div>
+                                   <!--자세히보기버튼-->
+                               </div>
+                               <!--텍스트박스-->
+                           </div>
+                           <!--매거진왼쪽-->
+                           
+                           <!--매거진오른쪽-->
+                           <div class="con02Right">
+                               <ul>
+                                   <li>
+                                       <a href="#">
+                                            <img     src="images/mainrow2_list_img.jpg" alt="리스트이미지">
+                                           
+                                            <!--리스트정보-->
+                                            <div class="listText">벽면재&gt;목질벽면재&gt;대리석<h4>폰티아</h4></div>
+                                            <!--리스트정보-->
+                                       </a>
+                                   </li>
+                                   
+                                   <li>
+                                       <a href="#">
+                                            <img     src="images/mainrow2_list_img.jpg" alt="리스트이미지">
+                                           
+                                            <!--리스트정보-->
+                                            <div class="listText">벽면재&gt;목질벽면재&gt;대리석<h4>폰티아</h4></div>
+                                            <!--리스트정보-->
+                                       </a>
+                                   </li>
+                                   
+                                   <li>
+                                       <a href="#">
+                                            <img     src="images/mainrow2_list_img.jpg" alt="리스트이미지">
+                                           
+                                            <!--리스트정보-->
+                                            <div class="listText">벽면재&gt;목질벽면재&gt;대리석<h4>폰티아</h4></div>
+                                            <!--리스트정보-->
+                                       </a>
+                                   </li>
+                                   
+                                   <li>
+                                       <a href="#">
+                                            <img     src="images/mainrow2_list_img.jpg" alt="리스트이미지">
+                                           
+                                            <!--리스트정보-->
+                                            <div class="listText">벽면재&gt;목질벽면재&gt;대리석<h4>폰티아</h4></div>
+                                            <!--리스트정보-->
+                                       </a>
+                                   </li>
+                               </ul>
+                           </div>
+                           <!--매거진오른쪽-->
+                       </div>
+                       <!--한솔매거진컨텐츠-->
+                   </div>
+               </div>
+               <!--메인컨텐츠02-->
+               
+               <!--메인컨텐츠03-->
+               <div class="mainCon03 inner cf">
+                   <!--테마갤러리-->
+                   <div class="con03Menu01">
+                       <a href="#">
+                           <h4>테마갤러리</h4>
+                           <p>한솔홈데코 제품으로 꾸며진<br>다양한 공간을 체험해보세요</p>
+                       </a>
+                   </div>
+                   <!--테마갤러리-->
+                   
+                   <!--블로그-->
+                   <div class="con03Menu02">
+                       <a href="#">
+                           <h4>블로그</h4>
+                           <p>한솔홈데코 제품으로 꾸며진<br>다양한 공간을 체험해보세요</p>                           
+                       </a>
+                   </div>
+                   <!--블로그-->
+                   
+                   <!--대리점찾기-->
+                   <div class="con03Menu03">
+                       <a href="#">
+                           <h4>대리점 찾기</h4>
+                           <p>한솔홈데코 제품으로 꾸며진<br>다양한 공간을 체험해보세요</p>
+                       </a>
+                   </div>
+                   <!--대리점찾기-->
+                   
+                   <!--제품찾기-->
+                   <div class="con03Search">
+                       <h4>제품 찾기</h4>
+                       <form>
+                           <select>
+                               <option>제품 전체 검색</option>
+                           </select>
+                           <input type="text" placeholder="모델명을 입력하세요".>
+                           <button>검색하기</button>
+                       </form>
+                   </div>
+                   <!--제품찾기-->
+                   
+                   <!--m제품찾기-->
+                   <div class="mCon03Search">
+                       <a href="#">
+                           <h4>제품 찾기</h4>
+                       </a>
+                   </div>
+                   <!--m제품찾기-->
+               </div>
+               <!--메인컨텐츠03-->
+               
+               <!--메인컨텐츠04-->
+               <div class="mainCon04 inner cf">
+                  <!--공지사항-->
+                  <div class="con04Box notice">
+                     <!--타이틀-->
+                      <div class="con04Tit">
+                          <h3>공지</h3>
+                          <div class="plusBtn">
+                              <a href="#">플러스버튼</a>
+                          </div>
+                      </div>
+                     <!--타이틀-->
+                     
+                     <!--공지사항리스트-->
+                     <ul class="noticeList cf">
+                         <li>
+                             <a href="#">
+                                 <p>한솔홈데코 홈페이지가 리뉴얼 되었습니다. 많은 이용 부탁드립니다.</p>
+                                 <span>2020-12-07</span>
+                                 <p>이벤트 응모 블로그 바로가기</p>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="#">
+                                 <p>스토리보드 PET(영상)</p>
+                                 <span>2020-12-07</span>
+                                 <p>가구의 품격을 높이는 한솔 인테리어의 공지사항영역입니다.</p>
+                             </a>
+                         </li>
+                     </ul>
+                     <!--공지사항list-->
+                  </div>
+                  <!--공지사항-->
+                  
+                  <!--뉴스-->
+                  <div class="con04Box news">
+                     <!--타이틀-->
+                      <div class="con04Tit">
+                          <h3>뉴스</h3>
+                          <div class="plusBtn">
+                              <a href="#">플러스버튼</a>
+                          </div>
+                      </div>
+                     <!--타이틀-->
+                     
+                     <!--뉴스리스트-->
+                     <ul class="newsList">
+                         <li>
+                             <a href="#">
+                                 <p>한솔홈데코의 홈페이지는 여러분들의 많은 이용을 기다리고 있습니다. 많은 이용 부탁드립니다.</p>
+                                 <span>2020-12-07</span>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="#">
+                                 <p>한솔홈데코의 홈페이지는 여러분들의 많은 이용을 기다리고 있습니다. 많은 이용 부탁드립니다.</p>
+                                 <span>2020-12-07</span>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="#">
+                                 <p>한솔홈데코의 홈페이지는 여러분들의 많은 이용을 기다리고 있습니다. 많은 이용 부탁드립니다.</p>
+                                 <span>2020-12-07</span>
+                            </a>
+                         </li>
+                     </ul>
+                     <!--뉴스리스트-->
+                     
+                  </div>
+                  <!--뉴스-->
+               </div>
+               <!--메인컨텐츠04-->
+               
+               <!--mo메인컨텐츠04-->
+               <div class="mMainCon04">
+                 <!--모바일공지-->
+                  <dl>
+                       <dt>공지</dt>
+                       <dd>
+                           <a href="#">한솔 홈데코의 스토리보드 및 공지사랑이 업데이트되었습니다. 많은 이용 부탁드립니다.</a>
+                       </dd>
+                  </dl>    
+                 <!--모바일공지-->
+                  
+                 <!--모바일뉴스-->
+                  <dl>
+                       <dt>뉴스</dt>
+                       <dd>
+                           <a href="#">한솔 홈데코에서 알려드리는 뉴스입니다. 많은 소식 알려드리겠습니다.</a>
+                       </dd>
+                  </dl>    
+                 <!--모바일뉴스-->
+               </div>
+               
+               <!--메인컨텐츠05-->
+               <div class="mainCon05">
+                   <ul class="con05List inner cf">
+                      <!--가구컴포넌트-->
+                       <li class="con05Menu01">
+                          <a href="#">
+                               <h3>가구 컴포넌트</h3>
+                               <p>소재부터 가구 도어까지</p>
+                           </a>
+                       </li>
+                      <!--가구컴포넌트-->
+                      
+                      <!--인테리어자재--> 
+                       <li class="con05Menu02">
+                          <a href="#">
+                               <h3>인테리어 자재</h3>
+                               <p>행복한 공간을 위한 토탈 인테리어</p>
+                           </a>
+                       </li>
+                      <!--인테리어자재--> 
+                       
+                      <!--연관사업--> 
+                       <li class="con05Menu03">
+                          <a href="#">
+                               <h3>연관 사업</h3>
+                               <p>자연과 인간의 조화를 이루는 한솔</p>
+                           </a>
+                       </li>
+                      <!--연관사업--> 
+                       
+                      <!--고객상담--> 
+                       <li class="con05Menu04">
+                          <a href="#">
+                               <h3>고객 상담</h3>
+                               <p>무엇이든 물어보세요</p>
+                           </a>
+                       </li>
+                      <!--고객상담--> 
+                   </ul>
+               </div>
+               <!--메인컨텐츠05-->
+           </div>
+           <!--container-->
+           
+           <!--footer-->
+           <footer id="footer">
+              <!--푸터탑-->
+               <div class="fTop">
+                  <div class="inner cf">
+                       <ul class="fMenu">
+                            <li><a href="#">고객상담</a></li>   
+                            <li><a href="#">개인정보처리방침</a></li>   
+                            <li><a href="#">윤리경영</a></li>   
+                            <li><a href="#">E-Market</a></li>   
+                            <li><a href="#">E-Purchase</a></li>   
+                       </ul>
+                       
+                       <!--csFamily-->
+                       <div class="csFamily">
+                          <!--cs센터-->
+                          <div class="csBox">
+                              <span>고객상담</span>
+                              <span class="num">080-777-2299</span>
+                          </div>
+                          <!--cs센터-->
+                          
+                          <!--패밀리사이트-->
+                          <div class="familyBox">FAMILY SITE</div>
+                          <!--패밀리사이트-->
+                           
+                       </div>
+                       <!--csFamily-->
+                  </div>
+               </div>
+              <!--푸터탑-->
+              
+              <!--푸터바텀-->
+              <div class="fBottom">
+                 <!--푸터로고-->
+                  <div class="fLogo">푸터로고영역</div>
+                 <!--푸터로고-->
+                 
+                 <!--푸터정보-->
+                  <p>
+                      <span>서울동작구 보라매로5길 15(신대방동, 전문건설회관 27층)</span>
+                      <span>Tel 080-777-2299</span>
+                      <span>개인정보취급관리자 서범석</span>
+                      <span>E-mail homedeco@hansol.com</span>
+                  </p>
+                  <p>Copyright HANSOLHOMEDECO All rights reserved. </p>
+                 <!--푸터정보-->
+              </div>
+              <!--푸터바텀-->
+           </footer>
+           <!--footer-->
         </div>
-       <!--전체-->
+        <!--전체시작-->
     </body>
 </html>
