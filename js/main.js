@@ -7,7 +7,7 @@ $(document).ready(function(){
         arrows:false, //화살표
         variableWidth:true,
         autoplay:true,
-        autoplaySpeed:2000,
+        autoplaySpeed:4000,
         responsive: [
         {
           breakpoint:1200, // 화면 비율 1200
@@ -52,7 +52,7 @@ $(document).ready(function(){
         arrows:false, //화살표
         variableWidth:true,
         autoplay:true,
-        autoplaySpeed:2000,
+        autoplaySpeed:4000,
         responsive: [
         {
           breakpoint:1200, // 화면 비율 1200
